@@ -1,7 +1,5 @@
-let text = () => {
-  alert("This is still in production");
-};
-setTimeout(text, 5000);
+//i need to create a section that will display over the
+//page saying the page is still undergoing production
 
 let day = new Date().toTimeString().split(" ")[0];
 let hour = day[0] + day[1];
