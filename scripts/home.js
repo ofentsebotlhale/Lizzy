@@ -9,7 +9,7 @@ let homeHTML = `
     <div
         class=" w-full flex-col text-center flex items-center justify-center h-full"
     >
-        <p id='text-field' class="flex flex-col bg-red-800 p-4 rounded-lg font-medium text-xl">
+        <p id='text-field' class="flex flex-col bg-red-600 p-4 rounded-lg font-medium text-xl">
             ${quote.text}<span class='text-sm'> ~ ${quote.author}</span>
         </p>
         <img
