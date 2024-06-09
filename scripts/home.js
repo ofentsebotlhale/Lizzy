@@ -1,14 +1,16 @@
 //i need to create a section that will display over the
 //page saying the page is still undergoing production
+import { quotes } from "./data/quotes.js";
 
+let quote = quotes[Math.floor(Math.random() * quotes.length)];
 let day = new Date().toTimeString().split(" ")[0];
 let hour = day[0] + day[1];
 let homeHTML = `
     <div
-        class="w-full flex-col text-center flex items-center justify-center h-full"
+        class=" w-full flex-col text-center flex items-center justify-center h-full"
     >
-        <p class="bg-red-800 p-4 rounded-lg font-medium text-xl">
-            Good Morning Love
+        <p id='text-field' class="flex flex-col bg-red-800 p-4 rounded-lg font-medium text-xl">
+            ${quote.text}<span class='text-sm'> ~ ${quote.author}</span>
         </p>
         <img
             class="mt-20 animate-ping"
@@ -39,8 +41,8 @@ let homeHTML = `
     </div>
 `;
 let windowElement = document.getElementById("window");
-//alert(hour);
+//console.log(quote.text, quote.author);
 
-if (hour < 12) {
+if (hour > 12) {
   windowElement.innerHTML = homeHTML;
 }
