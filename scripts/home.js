@@ -1,8 +1,3 @@
-const greet = () => {
-  console.log("Hello");
-};
-
-setTimeout(greet, 3000);
 let day = new Date().toTimeString().split(" ")[0];
 let hour = day[0] + day[1];
 let homeHTML = `
@@ -45,4 +40,4 @@ let windowElement = document.getElementById("window");
 
 if (hour < 12) {
   windowElement.innerHTML = homeHTML;
-} 
+}
