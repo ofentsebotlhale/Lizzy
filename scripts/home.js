@@ -1,3 +1,8 @@
+let text = () => {
+  alert("This is still in production");
+};
+setTimeout(text, 5000);
+
 let day = new Date().toTimeString().split(" ")[0];
 let hour = day[0] + day[1];
 let homeHTML = `
