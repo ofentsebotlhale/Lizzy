@@ -9,6 +9,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        sunsetOne: "#884a39",
+        sunsetTwo: "#c38154",
+        sunsetThree: "#ffc26f",
+        sunsetFour: "#f9e0bb",
         beigeOne: "#ffc074",
         beigeTwo: "#fdd489",
         skyBlue: "#77bbd4",

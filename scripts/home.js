@@ -51,8 +51,14 @@ windowElement.innerHTML = homeHTML;
 
 let textElement = document.getElementById("text-field");
 if (hour < 12) {
+   document.body.classList.add("from-beigeOne", "via-beigeTwo", "to-skyBlue");
   textElement.innerHTML = `Good Morning ${name}`;
 } else {
+  // document.body.classList.add(
+  //  "from-sunsetOne",
+  //    "via-sunsetTwo",
+  //"to-sunsetThree"
+  // );
   textElement.innerHTML = `Good Afternoon ${name}`;
 }
 
