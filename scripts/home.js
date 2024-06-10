@@ -10,6 +10,7 @@ if (
 ) {
   quote.author = "";
 }
+
 let day = new Date().toTimeString().split(" ")[0];
 let hour = day[0] + day[1];
 
