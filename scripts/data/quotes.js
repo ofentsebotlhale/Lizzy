@@ -1,4 +1,5 @@
-export const quotes = [
+import { name } from "./names.js";
+const quotes = [
   {
     text: `"Hey mom, I don't how to say this...but I love her, a lot, and I want her to know it."`,
     author: "OB",
@@ -16,8 +17,8 @@ export const quotes = [
     author: "Daddy",
   },
   {
-    text: "Beautiful, don't forget to smile. You look like an angel when you do.",
-    author: "Hi,",
+    text: `Hey ${name}, don't forget to smile. You look like an angel when you do.`,
+    author: "Yours",
   },
   {
     text: "When I see your face, there’s not a thing that I would change, ’cause you’re amazing – just the way you are.",
@@ -28,3 +29,4 @@ export const quotes = [
     author: "Your lover",
   },
 ];
+export let quote = quotes[Math.floor(Math.random() * quotes.length)];
