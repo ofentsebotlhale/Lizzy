@@ -17,7 +17,7 @@ const quotes = [
     author: "Daddy",
   },
   {
-    text: `Hey ${name}, don't forget to smile. You look like an angel when you do.`,
+    text: `${name}, don't forget to smile. You look like an angel when you do.`,
     author: "Yours",
   },
   {
