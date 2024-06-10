@@ -28,5 +28,21 @@ const quotes = [
     text: "Because of you, I can feel myself slowly, but surely, becoming the me I have always dreamed of being.",
     author: "Your lover",
   },
+  {
+    text: "I love you more than I did yesterday, but not as much as tomorrow",
+    author: "George...(still me)",
+  },
+  {
+    text: "There's three things I can't stop loving even if I tried... Your smile, Your soul and Your stubborness",
+    author: "My heart",
+  },
+  { text: "Guess what you were doing in my dream...", },
+  { text: "Thank you for listening to me", author: "" },
+  { text: "", author: "" },
+  {
+    text: "I have traded many pairs throughout my career, but none have ever made me feel so excruciatingly anxious, yet at peace.",
+    author: "",
+  },
+  { text: "Let's Wander the unknown together.", author: "" },
 ];
 export let quote = quotes[Math.floor(Math.random() * quotes.length)];
