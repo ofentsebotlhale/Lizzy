@@ -33,10 +33,10 @@ const quotes = [
     author: "George...(still me)",
   },
   {
-    text: "There's three things I can't stop loving even if I tried... Your smile, Your soul and Your stubborness",
+    text: "There are three things I can't help but love, no matter what: your smile, your soul, and your delightful stubbornness.",
     author: "My heart",
   },
-  { text: "Guess what you were doing in my dream...", },
+  { text: "Guess what you were doing in my dream..." },
   { text: "Thank you for listening to me", author: "" },
   { text: "", author: "" },
   {
